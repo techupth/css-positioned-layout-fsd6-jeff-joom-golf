@@ -1,1 +1,91 @@
-/* Start coding here */
+* {
+    box-sizing: content-box;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    font-family: Arial;
+  margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    font-size: 25px;
+    background-color: rgb(83, 83, 83);
+    color: rgba(255, 255, 255, 0.98);
+    width: 100vw;
+}
+
+.chat1 {
+    position: relative;
+    top: 100px;
+    left: 800px;
+    background-color: rgb(27, 126, 96);
+
+    border-radius: 40px;
+
+    
+
+}
+
+.chat2 {
+    
+    position: relative;
+    top: 100px;
+    left: 800px;
+    background-color: rgb(27, 126, 96);
+
+    border-radius: 40px;
+
+    
+
+}
+.chat3{
+   
+    position: relative;
+    top: 100px;
+    left: 800px;
+    background-color: rgb(27, 126, 96);
+
+    border-radius: 40px;
+
+    
+
+}
+.chat4 {
+    
+    position: relative;
+    top: 100px;
+    left: 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 40px;
+
+    
+
+}
+.chat5 {
+    
+    position: relative;
+    top: 100px;
+    left: 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 40px;
+
+    
+
+}
+
+.chat1,
+.chat2,
+.chat3,
+.chat4,
+.chat5 {
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
